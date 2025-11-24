@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class main {
 
+    public static final String LISTAR = "1. Listar";
+
     public static void main(String[] args) {
 
         repo_file Repo = new repo_file();
@@ -11,13 +13,7 @@ public class main {
         boolean Salir = false;
 
         while (!Salir) {
-            System.out.println("\n=== AGENDA ===");
-            System.out.println("1. Listar");
-            System.out.println("2. Buscar por día");
-            System.out.println("3. Buscar por nombre");
-            System.out.println("4. Añadir");
-            System.out.println("5. Eliminar");
-            System.out.println("6. Salir");
+            extraido();
 
             String Opcion = Sc.nextLine();
 
@@ -61,5 +57,15 @@ public class main {
                     break;
             }
         }
+    }
+
+    private static void extraido() {
+        System.out.println("\n=== AGENDA ===");
+        System.out.println("1. Listar");
+        System.out.println("2. Buscar por día");
+        System.out.println("3. Buscar por nombre");
+        System.out.println("4. Añadir");
+        System.out.println("5. Eliminar");
+        System.out.println("6. Salir");
     }
 }
