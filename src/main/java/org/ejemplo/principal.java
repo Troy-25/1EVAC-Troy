@@ -14,6 +14,8 @@ public class principal {
     public static final String DÍA = "Día: ";
     public static final String NOMBRE = "Nombre: ";
 
+    public static final String LISTAR = "1. Listar";
+
     public static void main(String[] args) {
 
         repositorio_archivo Repo = new repositorio_archivo();
@@ -21,13 +23,13 @@ public class principal {
         boolean Salir = false;
 
         while (!Salir) {
-            System.out.println(AGENDA);
-            System.out.println(LISTAR);
-            System.out.println(BUSCAR_POR_DÍA);
-            System.out.println(BUSCAR_POR_NOMBRE);
-            System.out.println(AÑADIR);
-            System.out.println(ELIMINAR);
-            System.out.println(SALIR);
+            System.out.println("\n=== AGENDA ===");
+            System.out.println("1. Listar");
+            System.out.println("2. Buscar por día");
+            System.out.println("3. Buscar por nombre");
+            System.out.println("4. Añadir");
+            System.out.println("5. Eliminar");
+            System.out.println("6. Salir");
 
             String Opcion = Sc.nextLine();
 
@@ -71,5 +73,15 @@ public class principal {
                     break;
             }
         }
+    }
+
+    private static void extraido() {
+        System.out.println("\n=== AGENDA ===");
+        System.out.println("1. Listar");
+        System.out.println("2. Buscar por día");
+        System.out.println("3. Buscar por nombre");
+        System.out.println("4. Añadir");
+        System.out.println("5. Eliminar");
+        System.out.println("6. Salir");
     }
 }
