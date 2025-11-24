@@ -2,5 +2,5 @@
 
 <!-- EPEEDC -->
 <!-- Pon tu nombre aquí debajo -->
-
-Examen 1EVA de: 
+Troy Pineda
+Examen 1EVA de: Troy Pineda 
