@@ -3,7 +3,7 @@ package org.ejemplo;
 import java.util.Scanner;
 
 public class principal {
-
+//Seleccion del menu y opciones .
     public static final String AGENDA = "\n=== AGENDA ===";
     public static final String LISTAR = "1. Listar";
     public static final String BUSCAR_POR_DÍA = "2. Buscar por día";
@@ -13,8 +13,6 @@ public class principal {
     public static final String SALIR = "6. Salir";
     public static final String DÍA = "Día: ";
     public static final String NOMBRE = "Nombre: ";
-
-    public static final String LISTAR = "1. Listar";
 
     public static void main(String[] args) {
 
@@ -32,7 +30,7 @@ public class principal {
             System.out.println("6. Salir");
 
             String Opcion = Sc.nextLine();
-
+//Las selecciones .
             switch (Opcion) {
                 case "1":
                     for (cumple_agenda c : Repo.get_lista()) {
