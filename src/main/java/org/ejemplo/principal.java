@@ -1,12 +1,12 @@
-package org.example;
+package org.ejemplo;
 
 import java.util.Scanner;
 
-public class main {
+public class principal {
 
     public static void main(String[] args) {
 
-        repo_file Repo = new repo_file();
+        repositorio_archivo Repo = new repositorio_archivo();
         Scanner Sc = new Scanner(System.in);
         boolean Salir = false;
 

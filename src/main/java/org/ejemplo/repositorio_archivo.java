@@ -1,9 +1,9 @@
-package org.example;
+package org.ejemplo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class repo_file {
+public class repositorio_archivo {
 
     private List<cumple_agenda> Lista = new ArrayList<>();
 
